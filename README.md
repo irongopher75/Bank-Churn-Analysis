@@ -8,19 +8,20 @@ A complete machine learning solution to predict customer churn in a banking cont
 
 BANK_CHURN_ANALYSIS/
 │
-├── 📁 data/ # Raw and SHAP datasets
-│ ├── data.csv
-│ └── shap_values.csv
+├── data/                   # Raw and SHAP datasets
+│   ├── data.csv
+│   └── shap_values.csv
 │
-├── 📁 notebooks/ # Jupyter notebooks
-│ └── 01_EDA.ipynb
+├── notebooks/              # Jupyter notebooks
+│   └── 01_EDA.ipynb
 │
-├── app.py # Streamlit dashboard
-├── encoder.pkl # (optional) Encoder if used
-├── xgb_bank_churn_model.json # Model in JSON format
-├── xgb_churn_model.pkl # Trained XGBoost model
-├── requirements.txt # Python dependencies
-└── README.md # This file
+├── app.py                  # Streamlit dashboard
+├── encoder.pkl             # (optional) Encoder if used
+├── xgb_bank_churn_model.json  # Model in JSON format
+├── xgb_churn_model.pkl     # Trained XGBoost model
+├── requirements.txt        # Python dependencies
+└── README.md               # This file
+
 
 
 ---
