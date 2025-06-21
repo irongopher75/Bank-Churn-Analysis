@@ -4,8 +4,9 @@ A complete machine learning solution to predict customer churn in a banking cont
 
 ---
 
-## 🗂️ Project Structure
+### 🗂️ Project Structure
 
+```
 BANK_CHURN_ANALYSIS/
 │
 ├── data/                   # Raw and SHAP datasets
@@ -21,8 +22,7 @@ BANK_CHURN_ANALYSIS/
 ├── xgb_churn_model.pkl     # Trained XGBoost model
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
-
-
+```
 
 ---
 
